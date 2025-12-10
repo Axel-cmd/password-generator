@@ -13,8 +13,7 @@ It can be used for quickly creating strong passwords for personal use, secure ac
 
 Before using this tool, make sure you have:
 
-- **Python 3.8+** (or the version your code supports)  
-- If you use external libraries, ensure dependencies are listed (e.g. in `requirements.txt`)
+- **Python 3.8+**
 
 ---
 
