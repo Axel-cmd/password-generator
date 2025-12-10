@@ -82,6 +82,7 @@ You can add one or several options when generating a password:
 | `-u` | Adds **uppercase letters** to the password. |
 | `-d` | Adds **digits (0-9)**. |
 | `-s` | Adds **special characters**. |
+| `--help` | Display **options** for the command password in the console. |
 
 ---
 
@@ -93,5 +94,6 @@ password 12              # 12 lowercase characters
 password 16 -u           # 16 chars, including uppercase
 password 20 -ud          # 20 chars, uppercase + digits
 password 24 -uds         # 24 chars, all character sets
+password --help          # list all options
 ```
 
