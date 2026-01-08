@@ -7,6 +7,11 @@
 **password-generator** is a simple Python script that generates random and secure passwords.  
 It can be used for quickly creating strong passwords for personal use, secure accounts, or any situation requiring a high-entropy password.
 
+✨ **Features:**
+- Generate customizable passwords with various character sets
+- **Automatic clipboard copy** - Generated passwords are automatically copied to your clipboard for easy pasting
+- Simple command-line interface
+
 ---
 
 ## 📦 Requirements
@@ -14,6 +19,13 @@ It can be used for quickly creating strong passwords for personal use, secure ac
 Before using this tool, make sure you have:
 
 - **Python 3.8+**
+- **pyperclip** library (for clipboard functionality)
+
+### Install dependencies
+
+```bash
+pip install pyperclip
+```
 
 ---
 
@@ -96,4 +108,6 @@ password 20 -ud          # 20 chars, uppercase + digits
 password 24 -uds         # 24 chars, all character sets
 password --help          # list all options
 ```
+
+> 💡 **Note:** All generated passwords are automatically copied to your clipboard, so you can paste them directly where needed!
 
