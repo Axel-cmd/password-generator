@@ -65,6 +65,12 @@ If you want to run it from anywhere in your system using only its name:
 sudo cp password.py /usr/local/bin/password
 ```
 
+or the following command allowed the command for all users:
+
+```bash
+sudo cp password.py /bin/password
+```
+
 Then simply use:
 
 ```bash
